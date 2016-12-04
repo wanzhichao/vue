@@ -1,0 +1,41 @@
+{
+  "java": {
+    "normalStrategy": [
+      {
+        "strategyName": "MACD策略选股",
+        "isRuning": true
+      },
+      {
+        "strategyName": "MACD策略选股",
+        "isRuning": false
+      }
+    ],
+    "needPc": [
+      {
+        "strategyName": "MACD策略选股"
+      }
+    ]
+  },
+  "python": {
+    "normalStrategy": [
+      {
+        "strategyName": "MACD策略选股",
+        "isRuning": true
+      },
+      {
+        "strategyName": "MACD策略选股",
+        "isRuning": false
+      },
+      {
+        "strategyName": "MACD策略选股",
+        "isRuning": false
+      }
+    ],
+    "needPc": [
+      {
+        "strategyName": "MACD策略选股"
+      }
+    ]
+  }
+}
+

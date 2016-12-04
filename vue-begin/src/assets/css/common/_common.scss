@@ -1,0 +1,31 @@
+@import "./_variable";
+.blue{ color: $blue; }
+.white{color: $white;}
+.red{ color: $red; }
+.black{ color: $black; }
+.gray{ color: $gray; }
+.light-gray{ color: $light-gray; }
+.bg-white{ background-color: $white; }
+.pb50{ padding-bottom: 50px; }
+
+.lineH14{ line-height: 14px; }
+.border-r{@include jm-border-r(1px, #dddddd);}
+body{background: $bg-gray;width:100%;height: 100%;font-size: 1.4rem;}
+img{display: block;width: 100%;}
+
+.main-wrap {
+  max-width: 750px;
+  background: $bg-gray;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.flex{
+  display: flex;
+}
+.flex-item{
+  flex: 1;
+}

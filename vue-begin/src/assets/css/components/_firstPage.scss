@@ -1,0 +1,70 @@
+.quant-header{
+  width: 100%;
+  height: 23rem;
+  background: url(../img/headBg.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+}
+.enter-btn{
+  width: 10rem;
+  height: 3rem;
+  font-size: 14px;
+  line-height: 3rem;
+  border: 1px solid #fff;
+  border-radius: 1.5rem;
+  margin: 1.5rem auto 0 auto;
+  span{
+    padding-right: 8px;
+    background: url(../img/right-white.png) no-repeat center right;
+    background-size: 4px 8px;
+  }
+}
+.quant-box{
+  width: 94%;
+  height: 8rem;
+  background-color: #fff;
+  margin: -5rem auto 0 auto;
+  border-radius: 4px;
+  text-align: center;
+  color: #323232;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.03);
+}
+.info-box{
+  margin-top: 1.8rem;
+  border-right: 1px solid $gray;
+  @include jm-border-r(1px, #dddddd);
+}
+.info-box:last-child{
+  border:none;
+}
+.quant-info{
+  font-size: 12px;
+  margin-top: 5px;
+  color:$gray;
+}
+.quant-title{
+  padding: 1rem 0 1rem 1.5rem;
+  color:$light-gray;
+}
+.simulation{
+  padding-left: 1.5rem;
+  border-top: 1px solid #dddddd;
+  background: $white;
+}
+.simulation-list{
+  padding-right: 1.5rem;
+  @include jm-border-b(1px, #dddddd);
+  height:5.5rem;
+  line-height:5.5rem;
+}
+.icon-right{
+  width: 8px;
+  height: 14px;
+  position: absolute;
+  right: 1.5rem;
+  top:50%;
+  margin-top: -7px;
+  background: url(../img/right.png) no-repeat;
+  background-size: 100% 100%;
+}

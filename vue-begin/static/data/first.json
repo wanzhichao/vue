@@ -1,0 +1,23 @@
+{
+  "rank": 2,
+  "modify": 16,
+  "repeat": 4,
+  "comment": 7,
+  "strategies": [
+    {
+      "name": "MACD策略选股",
+      "isDeal": true,
+      "strategyId": 1
+    },
+    {
+      "name": "财务银子组合的选股模型",
+      "isDeal": false,
+      "strategyId": 2
+    },
+    {
+      "name": "MACD策略选股",
+      "isDeal": true,
+      "strategyId": 3
+    }
+  ]
+}

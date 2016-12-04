@@ -1,0 +1,76 @@
+.record-nav{
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  color: $black;
+  div{
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    line-height: 4.5rem;
+    font-size: 14px;
+  }
+  .cur-nav{color:$red;}
+}
+.cur-line{
+  width:100%;
+  height: 2px;
+  .cur-index{
+    height: 100%;
+    width:50%;
+    background-color: $red;
+    transition: transform 0.3s ease-in-out;
+  }
+  .index-move{
+    transform: translateX(100%);
+  }
+}
+.strategy-cont{
+  background: $white;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  .double-box{
+    width: 200%;
+    transform: translateX(0);
+    transition: transform .3s ease-in-out;
+  }
+  .show-python{
+    transform: translatex(-50%);
+  }
+}
+.strategy-title{
+  color:$light-gray;
+  padding:1rem 0 1rem 1.5rem;
+  background-color: $bg-gray;
+}
+.strategy-box{
+  padding-left: 1.6rem;
+  .strategy-list{
+    height: $h55;
+    line-height: $h55;
+    position: relative;
+    .strategy-btn{
+      position: absolute;
+      font-size: 12px;
+      width: 60px;
+      height: 28px;
+      line-height: 28px;
+      color:$gray;
+      background: $bg-gray;
+      text-align: center;
+      right: 1.5rem;
+      top:50%;
+      margin-top: -14px;
+      border-radius: 2px;
+    }
+    .runing{
+      background: $red;
+      color:$white;
+    }
+  }
+  .strategy-list:not(:last-child){
+    @include jm-border-b(1px, #dddddd);
+  }
+}

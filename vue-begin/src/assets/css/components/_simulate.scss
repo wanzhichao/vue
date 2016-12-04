@@ -1,0 +1,18 @@
+.simulate-box{
+  width:100%;
+  box-sizing: border-box;
+  position: relative;
+  background: $white;
+  padding: 1.5rem 1rem;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.simulate-time{
+  width: 28%;
+  box-sizing: border-box;
+  color:$gray;
+  padding-right: 1.5rem;
+}
+.simulate-cont{
+  width: 72%;
+}

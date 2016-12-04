@@ -1,0 +1,75 @@
+@import "../common/_mixins";
+@import "../common/_common";
+@import "../components/_nav";
+@import "../components/_loading";
+@import "../components/_firstPage";
+@import "../components/_strategy";
+@import "../components/_myInfo";
+@import "../components/_error";
+@import "../components/_simulate";
+@import "../components/_detail";
+@import "../components/_myStrategy";
+.nav-box{
+  height: 40px;
+  padding: 0 20px;
+}
+.nav-item{
+  height: 100%;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: cornflowerblue;
+  color:white;
+}
+.cont{
+  padding: 20px 20px;
+}
+.btn-del{
+  background-color: red;
+  border: 4px;
+}
+.Image {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+}
+
+.swap-enter {
+  opacity: 0.01;
+  transform: translateX(5em);
+  transition: all .5s ease-in;
+}
+
+.swap-enter.swap-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.swap-leave {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all .5s ease-in;
+}
+
+.swap-leave.swap-leave-active {
+  opacity: 0;
+  transform: translateX(-5em);
+}
+
+.example-enter {
+  opacity: 0.01;
+  transition: all .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
+
+.example-leave {
+  opacity: 1;
+  transform: translateX(-100%);
+  transition: all .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0;
+}
